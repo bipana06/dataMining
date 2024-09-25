@@ -43,7 +43,7 @@ def get_places(web_url):
 def writing_to_CSV(data, filename):
     
     # CSV headers
-    headers = ['City/Place', 'Attractions', 'Temperature', 'UV Index', 'Recommended to go out?']
+    headers = ['City/Place', 'Attractions', 'Temperature', 'UV Index', 'Visibility', 'Recommended to go out?']
     
     with open(filename, mode='w', newline='', encoding='utf-8') as csvfile:
         writer = csv.writer(csvfile)
@@ -72,7 +72,7 @@ def main(API_key, web_url):
             temperature = weather_data_for_city['current']['temperature'] #get the temperature fo that place
             uv_index = weather_data_for_city['current']['uv_index'] #get the uv index for that place
             visibility = weather_data_for_city['current']['visibility'] 
-            if uv_index > 5 and visibility < 2: # uv index is greater than 5 and visibility is less than 2, recommend not to go out
+            if uv_index > 5 and visibility < 4: # uv index is greater than 5 and visibility is less than 4, recommend not to go out
                 recommended = 'No'
             else:
                 recommended = 'Yes'
@@ -81,7 +81,7 @@ def main(API_key, web_url):
             uv_index = 'NA'
             recommended = 'NA'
         
-        data_for_CSV.append([city, attractions, temperature, uv_index, recommended])
+        data_for_CSV.append([city, attractions, temperature, uv_index, visibility, recommended])
         time.sleep(1)
     
     # cleaning

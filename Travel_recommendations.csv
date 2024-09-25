@@ -1,4 +1,4 @@
-City/Place,Attractions,Temperature,UV Index,Recommended to go out?
+City/Place,Attractions,Temperature,UV Index,Visibility,Recommended to go out?
 Delhi,"India Gate
 Lotus Temple
 Red Fort
@@ -10,7 +10,7 @@ Rajghat
 Connaught Place
 Jantar Mantar
 Humayun's Tomb
-Dilli Haat etc.",19,1,Yes
+Dilli Haat etc.",19,1,10,Yes
 Agra,"Taj Mahal
 Agra Fort
 Fatehpur Sikri
@@ -19,7 +19,7 @@ Akbar's Tomb
 Itimad ud Daulah
 Akbar’s Mausoleum
 Agra Museum
-Mehtab Bagh etc.",28,7,Yes
+Mehtab Bagh etc.",28,7,10,Yes
 Jaipur and Udaipur,"Jal Mahal
 Hawa Mahal
 City Palace
@@ -30,7 +30,7 @@ Local Markets
 Chokhi Dhani
 Raj Mandir
 Sisodia Rani Garden
-Galta Ji Temple etc.",25,6,Yes
+Galta Ji Temple etc.",25,6,7,Yes
 Varanasi,"Ganga Aarti at Dashashwamedh Ghat
 New Vishwanath Temple
 Kashi Vishwanath Temple
@@ -41,8 +41,8 @@ Ramnagar Fort
 Tulsi Manas Temple
 Sarnath
 Manikarnika Ghat
-and other.",27,7,Yes
-Kashmir,,38,9,Yes
+and other.",27,7,10,Yes
+Kashmir,,38,9,10,Yes
 Ladakh,"Nubra Valley
 Thiksay Monastery
 Tso Moriri
@@ -55,7 +55,7 @@ Diskit Village
 Zanskar Valley
 Hemis National Park
 Chadar Trek route
-and others.",6,3,Yes
+and others.",6,3,10,Yes
 Darjeeling,"Tiger Hill
 Batasia Loop
 Toy Train
@@ -63,7 +63,7 @@ Japanese Peace Pagoda
 Rock Garden
 Padmaja Naidu Himalayan Zoological Park
 Singalila National Park
-Happy Valley Tea Estate etc.",16,4,Yes
+Happy Valley Tea Estate etc.",16,4,10,Yes
 Kasol,"Grahan Street
 Hot Water Spring
 Gurudwara Shri Manikaran Sahib
@@ -72,7 +72,7 @@ Malana
 Tosh Village
 Parvati River
 Kheer Ganga trek
-and others.",11,4,Yes
+and others.",11,4,10,Yes
 Assam,"Kaziranga national park
 Pobitora wildlife sanctuary
 Kamakhya temple
@@ -81,7 +81,7 @@ Tocklai tea research center
 Kokochange waterfall
 Manas national park
 Nameri national park
-and others.",25,1,Yes
+and others.",25,1,10,Yes
 Jim Corbett National Park,"Corbett Falls
 Bijrani Zone
 Garjiya Devi Temple
@@ -89,14 +89,14 @@ River rafting
 elephant safari
 Ram Ganga reservoir
 Corbett Museum
-and others.",10,5,Yes
+and others.",10,5,10,Yes
 Orchha,"Raja Mahal
 Chaturbhuj Temple
 Orchha Fort
 Shri Ram Raja Mandir
 Chattris
 River Betwa
-and others.",27,7,Yes
+and others.",27,7,10,Yes
 Nainital,"Nainital Lake
 Snow View
 Naina Devi Temple
@@ -109,7 +109,7 @@ ShervaniHilltop
 Dorothy’s seat
 Cheena Peak
 Aamod
-and others.",24,5,Yes
+and others.",24,5,9,Yes
 Khajjiar,"Kalatop wildlife sanctuary
 Khajjiar Lake
 Pohlani Mata temple
@@ -118,7 +118,7 @@ Khajji Nag temple
 Golden Devi Temple
 Tibetan shopping center
 Khajjiar trekking trail
-and others.",16,5,Yes
+and others.",16,5,10,Yes
 Kolkata,"Victorian Memorial
 Howrah Bridge
 Marble Palace mansion
@@ -131,7 +131,7 @@ Science City
 Eden Gardens
 Alipore Zoo
 Calcutta Botanical Garden
-and others.",25,6,Yes
+and others.",25,6,9,Yes
 Amritsar,"Golden Temple
 Durgiana Temple
 Hall bazaar
@@ -141,7 +141,7 @@ Jallian wala Bagh memorial
 Akal Takht
 Maharaja Ranjit Singh museum
 Guru ke Mahal
-and others.",25,7,Yes
+and others.",25,7,10,Yes
 Cherrapunji,"Nohkalikai waterfalls
 Kynrem falls
 Double-decker living root bridge
@@ -150,7 +150,7 @@ Dainthlen falls
 Mawsmai cave
 KremPhyllut
 Dawki
-and others.",21,5,Yes
+and others.",21,5,9,Yes
 Mumbai,"Gateway of India
 Bandra-Worli sea link
 Marine drive
@@ -162,20 +162,20 @@ Vipassana Pagoda
 Mahalakshmi temple
 Gandhi museum
 Film City
-and others.",26,6,Yes
+and others.",26,6,10,Yes
 Goa,"Beaches
 Forts
 Temples
 Museum
 Water Sports
 Waterfalls
-Wildlife Sanctuaries etc.",26,6,Yes
+Wildlife Sanctuaries etc.",26,6,10,Yes
 Kanyakumari,"Vivekananda Rock Memorial
 Thiruvalluvar Statue
 Bhagavathy Amman Temple
 Kanyakumari Beach
 Padmanabhapuram Palace
-Thirparappu Falls etc.",25,5,Yes
+Thirparappu Falls etc.",25,5,10,Yes
 Kerala,"Backwaters
 Houseboats
 Wildlife
@@ -183,7 +183,7 @@ Plantations
 Temples
 Dishes
 Local Markets
-Spa and Ayurveda Centers etc.",16,1,Yes
+Spa and Ayurveda Centers etc.",16,1,10,Yes
 Mysore,"Mysore Palace
 Somnathapura Temple
 Brindavan Gardens
@@ -192,7 +192,7 @@ Chamundeshwari Temple
 Jaganmohan Palace
 Karanji Lake
 Folklore Museum
-Lalitha Mahal Palace etc.",20,5,Yes
+Lalitha Mahal Palace etc.",20,5,9,Yes
 Hyderabad,"Golconda Fort
 Charminar
 Ramoji Film City
@@ -206,7 +206,7 @@ ChilkurBalaji Temple
 QutbShahi Tombs
 TaramatiBaradari
 Nizam’s Museum
-and others.",24,5,Yes
+and others.",24,5,10,Yes
 Ooty,"Ooty boathouse
 St. Stephen’s Church
 Rose Garden
@@ -218,7 +218,7 @@ Kalhatti falls
 Dolphin Nose
 Ooty botanical garden
 Nilgiri mountain railways (toy train)
-and others.",17,5,Yes
+and others.",17,5,10,Yes
 Coorg,"Abbey Falls
 Barapole River
 Golden Temple
@@ -229,7 +229,7 @@ Mandalpatti scenic point
 Nagarhole national park
 Tadiandamol Peak
 Talacauvery
-and others.",24,7,Yes
+and others.",24,7,10,Yes
 Andaman and Nicobar,"Cellular Jail
 Neil Island
 Elephant beach
@@ -242,7 +242,7 @@ Diglipur
 Jolly Buoy Island
 Kala Pathar
 Chidiya Tapu
-and others.",27,6,Yes
+and others.",27,6,9,Yes
 Hampi,"Virupaksha temple
 Vithala temple
 Lotus palace
@@ -253,7 +253,7 @@ Hampi bazaar
 Hippie island
 Queen’s bath
 Monkey temple
-and others.",23,5,Yes
+and others.",23,5,10,Yes
 Ziro,"Talley Valley wildlife sanctuary
 DoloMando trekking trail
 Meghna cave temple
@@ -264,11 +264,11 @@ ZiroPuto
 Hapoli
 DoloMando
 Dilopolyang
-and others.",26,4,Yes
+and others.",26,4,5,Yes
 Lakshadweep,"Agatti Island
 Minicoy Island
 Kalpeni Island
 Kavaratti
 Kadmat Island
 Scuba diving
-and others.",28,6,Yes
+and others.",28,6,10,Yes
